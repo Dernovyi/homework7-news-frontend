@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "homework7-news-frontend"
+    }
+  },
+  "defaultProject": "homework7-news-frontend",
+  "cli": {
+    "analytics": false
+  }
 }
