@@ -1,0 +1,20 @@
+<div class="main-content">
+  <div class="section-content section-content-p30">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3" *ngFor="let tempNews of news" >
+          <img class="card-img-top" src="{{tempNews.image}}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{tempNews.title}}</h5>
+
+            
+            <button (click)="getNews(tempNews.id)" class="btn btn-info">Get News</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+

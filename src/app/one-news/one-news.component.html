@@ -1,0 +1,15 @@
+
+
+
+<div class="card" *ngIf="news">
+  <div class="card-header" >
+    <img class="card-img-top" src="{{news.image}}" alt="Card image cap">
+  </div>
+  <div class="card-body" >
+    <h5 class="card-title" >{{news.title}}</h5>
+    <p class="card-text">{{news.description}}</p>
+    <p class="card-text">Author - {{news.author}}</p>
+    <p class="card-text">Category - {{news.category}}</p>
+    <p class="card-text">Published - {{news.published}}</p>
+  </div>
+</div>
